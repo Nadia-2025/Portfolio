@@ -1,10 +1,11 @@
 import React from "react";
-import "./App.css";
+import "./index.css";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <>
-      <h1>Hola</h1>
+      <Navbar />
     </>
   );
 }
