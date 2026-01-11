@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav>
-      <div>
+      <div className="container flex justify-center items-center mx-auto bg-amber-800">
         <span>Nombre</span>
 
         <ul>
@@ -13,7 +13,7 @@ const Navbar = () => {
           <li>Contacto</li>
         </ul>
 
-        <button>☰</button>
+        <button className="material-symbols-outlined">menu</button>
       </div>
     </nav>
   );
